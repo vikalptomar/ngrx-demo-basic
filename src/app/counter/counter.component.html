@@ -1,0 +1,9 @@
+<div class="center">
+  <h1>Counter: {{ count$ | async }}</h1>
+  <button class="but" (click)="increment()">Add(+)</button>
+  <button class="but" (click)="decrement()">Sub(-)</button>
+  <button class="but" (click)="reset()">Reset</button>
+  <!-- <h1>New Counter: {{ count$ | async }}</h1> -->
+</div>
+<button class="but" (click)="set()">Call Server</button>
+<button class="but" routerLink="/cart">Redirect</button>

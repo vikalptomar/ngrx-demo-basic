@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.but {
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+  border: none;
+  padding: 13px;
+  background-color: rgb(10, 72, 97);
+  border-radius: 0%;
+  cursor: pointer;
+}
